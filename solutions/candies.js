@@ -9,4 +9,4 @@ function candies(n,m){
   }
 }
 module.exports = candies
-console.log(candies(3,10));
+//console.log(candies(3,10));
