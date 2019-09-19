@@ -13,3 +13,4 @@ function adjacentElementsProduct(a){
 var inputArray = [3,6,-2,-5,7,3];
 //console.log(adjacentElementsProduct(inputArray));
 module.exports=adjacentElementsProduct
+hola haciendo pueba 1
