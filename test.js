@@ -4,7 +4,7 @@ const clc      = require('cli-color');
 fs.readdir("./solutions", (err, files) => {
   files.forEach(file => {
     if (file === "sum.js") {
-      var f = require("./solutions/" + file);
+      var f = require("/laboratorio1/" + file);
       var fs = require('fs');
       fs.readFile('./inputs/sum.txt', function (err, data) {
         if (err) {
