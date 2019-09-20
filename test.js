@@ -1,4 +1,4 @@
-const { exec } = require('child_process');
+//const { exec } = require('child_process');
 var fs         = require('fs');
 const clc      = require('cli-color');
 fs.readdir("./solutions", (err, files) => {
