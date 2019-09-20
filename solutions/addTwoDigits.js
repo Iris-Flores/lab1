@@ -1,9 +1,17 @@
-'use strict'
-
-function addTwoDigits(n) {
-  const arr = (n).toString(10).split("").map(Number);
-
-  return arr[0] + arr[1];
+function palindromo(cadena){
+  t=cadena.length;
+  if(t==0){function palidromo (cadena)}
+  t=cadena.length;
+  if(t==0){
+    return false;
+  }
+  for(i=0;i<t/2;i++)
+  {
+      if(cadena[i] != cadena[t-1-i]){
+        return false;
+      }
+    }
+    return true;
 }
-
-addTwoDigits(25);
+console.log(palindromo("aabaa"));
+module.exports=palindromo
